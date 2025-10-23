@@ -31,7 +31,7 @@ class App extends StatelessWidget {
         builder: (ctx, snapshot) {
 
           if(snapshot.connectionState == ConnectionState.waiting){
-            return const SplashScreen();
+            return const SplashScreen();  
           }
 
           if (snapshot.hasData) {
